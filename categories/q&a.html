@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>q&a — SakuraSpeed</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav class="top-bar">
+  <a href="../index.html" class="top-bar__link">♡ back to pits ♡</a>
+</nav>
+
+<header class="hero hero--small">
+  <img src="../img/q&a-header.png" alt="q&a" class="hero-img">
+</header>
+
+<nav class="breadcrumb">
+  <a href="../index.html">home</a>
+  <span>›</span>
+  <a href="../categories/q&a.html">q&a</a>
+</nav>
+
+<main class="category-page">
+
+  <h1>q&a for those not afraid to ask</h1>
+  <p class="category-intro">
+    anonymous questions, honest answers. think reddit but cuter.
+  </p>
+
+  
+  
+  <section class="qa-ask">
+    <h2>ask a question</h2>
+    <div class="qa-box">
+      <textarea class="qa-input" placeholder="ask anything…"></textarea>
+      <button class="qa-submit">send</button>
+    </div>
+  </section>
+
+  
+  <section class="qa-list">
+
+    
+    <article class="qa-thread">
+      <div class="qa-question-header">
+        <h3 class="qa-question">“is it dumb to buy a 90s car as my first car?”</h3>
+        <span class="qa-meta">asked anonymously · beginner</span>
+      </div>
+
+      <div class="qa-votes">
+        <button class="vote-up">▲</button>
+        <span class="vote-count">12</span>
+        <button class="vote-down">▼</button>
+      </div>
+
+      <div class="qa-answers">
+
+        <div class="qa-answer">
+          <div class="answer-meta">answered · 2 hours ago</div>
+          <p>
+            depends if you want reliability or personality. 90s cars are fun,
+            light and dramatic, but also require more love. if you like learning
+            about cars, it’s a vibe. if not — maybe don’t.
+          </p>
+        </div>
+
+        <div class="qa-answer">
+          <div class="answer-meta">answered · 1 hour ago</div>
+          <p>
+            they’re good if you accept that small things will break. treat it
+            like a pet: cute, chaotic, needs care.
+          </p>
+        </div>
+
+      </div>
+    </article>
+
+    
+    <article class="qa-thread">
+      <div class="qa-question-header">
+        <h3 class="qa-question">“how do i check oil?”</h3>
+        <span class="qa-meta">asked anonymously · total newbie</span>
+      </div>
+
+      <div class="qa-votes">
+        <button class="vote-up">▲</button>
+        <span class="vote-count">7</span>
+        <button class="vote-down">▼</button>
+      </div>
+
+      <div class="qa-answers">
+        <div class="qa-answer">
+          <div class="answer-meta">answered · today</div>
+          <p>
+            engine cold, car flat, dipstick out, wipe, check again. if the line
+            is between min and max you’re good. literally everyone googles this
+            the first time.
+          </p>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+</main>
+
+
+
+<script>
+  
+  document.querySelector('.qa-submit').addEventListener('click', () => {
+    const text = document.querySelector('.qa-input').value.trim();
+    if (!text) return;
+
+    alert(
+      "this would send to your real WordPress Q&A system:\n\n" + text
+    );
+
+    document.querySelector('.qa-input').value = "";
+  });
+</script>
+
+</body>
+</html>
