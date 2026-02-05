@@ -1,6 +1,6 @@
 # SakuraSpeed 🌸🏎️
 
-SakuraSpeed is a static mini-blog about JDM cars, modding, and overall japanese aesthetics.  
+SakuraSpeed is a static mini-blog about JDM cars, modding, and overall japanese aesthetics.
 Built with HTML + CSS + vanilla JS as a portfolio project.
 
 ## about the project
@@ -10,6 +10,7 @@ this website is designed as a blog-style portal with:
 - individual post pages (articles)
 
 My goal was to build a clean and cute, responsive layout and add lightweight interactions without frameworks.
+
 
 ## features
 - responsive UI (grid layouts + horizontal scroll category pills)
@@ -24,21 +25,16 @@ My goal was to build a clean and cute, responsive layout and add lightweight int
 
 ## tech stack
 - HTML5
-- CSS3 (custom styling, responsive grids)
-- Vanilla JavaScript (DOM manipulation, IntersectionObserver, filtering)
+- CSS
+- JavaScript
 
 ## project structure
 - `index.html` — home page
 - `style.css` — global styles + post and category layouts
 - `script.js` — filtering logic for category pages (based on data-* attributes)
 - `categories/` — category pages
-- `posts/` — article pages
+- `posts/` — article pages / posts
 - `img/` — images used across the site
-
-## how to run locally
-1. Download / clone the repository
-2. Open `index.html` in your browser  
-   (optional: use VS Code Live Server for smoother navigation)
 
 ## notes / future improvements
 - connect newsletter and Q&A form to a backend (currently UI-only)
@@ -46,5 +42,6 @@ My goal was to build a clean and cute, responsive layout and add lightweight int
 - add pagination / “load more”
 - improve accessibility (ARIA labels, focus states, contrast checks)
 
+
 ## author
-Created by Jules (portfolio project).
+created by Julia Gonkiewicz :) <3
