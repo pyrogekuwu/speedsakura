@@ -1,7 +1,7 @@
 # SakuraSpeed 🌸🏎️
 
-SakuraSpeed is a static mini-blog about JDM cars, modding, and overall japanese aesthetics.
-Built with HTML + CSS + vanilla JS as a portfolio project.
+sakuraspeed is a static mini-blog about JDM cars, modding, and overall japanese aesthetics 
+built with HTML + CSS + vanilla JS as a portfolio project
 
 ## about the project
 this website is designed as a blog-style portal with:
@@ -9,10 +9,11 @@ this website is designed as a blog-style portal with:
 - category pages (eg. car models, JDM legends, itasha & aesthetics, modding, guides for newbies, Q&A)
 - individual post pages (articles)
 
-My goal was to build a clean and cute, responsive layout and add lightweight interactions without frameworks.
+my goal was to build a clean and cute, responsive layout and add lightweight interactions without frameworks 
 
+## °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･ 𓆩✧𓆪 °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･
 
-## features
+## ★ features
 - responsive UI (grid layouts + horizontal scroll category pills)
 - category navigation with “pill” style buttons
 - fade-in on scroll (IntersectionObserver)
@@ -23,12 +24,12 @@ My goal was to build a clean and cute, responsive layout and add lightweight int
   - supports multi-dimension filtering (e.g. era + brand)
 - “no results” state when filters hide all cards
 
-## tech stack
+## ★ tech stack
 - HTML5
 - CSS
 - JavaScript
 
-## project structure
+## ★ project structure
 - `index.html` — home page
 - `style.css` — global styles + post and category layouts
 - `script.js` — filtering logic for category pages (based on data-* attributes)
@@ -36,12 +37,12 @@ My goal was to build a clean and cute, responsive layout and add lightweight int
 - `posts/` — article pages / posts
 - `img/` — images used across the site
 
-## notes / future improvements
+## ★ notes / future improvements
 - connect newsletter and Q&A form to a backend (currently UI-only)
 - add search
 - add pagination / “load more”
 - improve accessibility (ARIA labels, focus states, contrast checks)
 
 
-## author
-created by Julia Gonkiewicz :) <3
+## ★ author
+created by Julia Gonkiewicz 𐔌՞. .՞𐦯 
