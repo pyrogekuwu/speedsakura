@@ -36,7 +36,7 @@
 
 
     <p class="divider">
-    °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･ ꧁⎝ 𓆩✧𓆪 ⎠꧂ °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･
+    °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･ 𓆩✧𓆪 °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･
   </p>
 
   
@@ -228,7 +228,7 @@
 
             <p class="about-divider">
 
-              °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･ ꧁𓆩✧𓆪꧂ °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･
+              °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･ 𓆩✧𓆪 °❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･
             </p>
 
 
@@ -353,7 +353,7 @@
 </script>
 
 <script>
-  // smooth scrolling for "about me" so it lands near the middle
+  
   const aboutSection = document.querySelector('#about');
   const aboutLinks = document.querySelectorAll('a[href="#about"]');
 
@@ -365,12 +365,12 @@
       const sectionHeight = rect.height;
       const sectionTopAbsolute = rect.top + window.pageYOffset;
 
-      // try to center: middle of viewport minus half of section height
+      
       let targetY = sectionTopAbsolute - (window.innerHeight / 2 - sectionHeight / 2);
 
-      // if section is taller than viewport, just align its top
+      
       if (sectionHeight > window.innerHeight) {
-        targetY = sectionTopAbsolute - 40; // small offset so it's not glued to the very top
+        targetY = sectionTopAbsolute - 40;
       }
 
       window.scrollTo({
